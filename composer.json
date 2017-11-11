@@ -1,0 +1,22 @@
+{
+    "name": "sunshinexcode/hello-composer",
+    "description": "Dummy package, just to test composer.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "sunshinexcode",
+            "email": "24xinhui@163.com"
+        }
+    ],
+    "require": {
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~6.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sunshinexcode\\": "src/"
+        }
+    }
+}
